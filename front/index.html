@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shopping Cart</title>
+  <script src="https://www.paypal.com/sdk/js?client-id=YOUR_CLIENT_ID"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1>Shopping Cart</h1>
+  
+  <div id="product-details">
+    <p>Product: Sample Product</p>
+    <p>Item Number: ABC123</p>
+    <p>Price: $19.99</p>
+  </div>
+  
+  <h2>Buyer Information</h2>
+  <form id="buyer-info-form">
+    <input type="text" id="firstName" placeholder="First Name" required><br>
+    <input type="text" id="lastName" placeholder="Last Name" required><br>
+    <!-- Outros campos de informações do comprador... -->
+
+    <button id="paypal-button" style="background-color: yellow;" onclick="event(e)"  >Pay with PayPal</button>
+  </form>
+
+  
+</body>
+</html>
